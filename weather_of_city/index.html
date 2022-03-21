@@ -6,22 +6,20 @@
            <title>Weather</title>
         </head>
         <body bgcolor="yellow">
-            <center>Get Weather Forecasting for <input type="text" id="city"/></center>
-            <br><br>
-            <center><button id="button" onclick="myFunction()">Get API Data</button></center>
+            <center><p style="color: violet;font-size: large;">Enter city name for weather forecasting <br><br><input type="text" id="city"/></center>
+            <br>
+            <center><button id="button" onclick="myFunction()">Get Weather Data</button></center>
               <div>
+                     <center>
                 <p id="name"></p>
                 <p id="max_temp"></p>
                 <p id="min_temp"></p>
+                     </center>
             </div>
-            <!--<canvas id="myChart" width="400" height="400"></canvas>-->
+            
             <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
             crossorigin="anonymous"></script>
-            <script
-            src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js">
-                </script>
-        
-        <script src="js/myscript.js"></script>
-        </body>
-        </html>
+            <script src="js/myscript.js"></script>
+       </body>
+</html>
